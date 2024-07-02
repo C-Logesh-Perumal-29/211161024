@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Average Calculator</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Average Calculator</h1>
+        <form id="average-form">
+            <label for="numbers">Enter numbers (comma-separated):</label>
+            <input type="text" id="numbers" name="numbers" required>
+            <label for="type">Select type of average:</label>
+            <select id="type" name="type" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="e">Even Number Average</option>
+                <option value="o">Odd Number Average</option>
+                <option value="f">Fibonacci Average</option>
+                <option value="p">Prime Number Average</option>
+                <option value="r">Random Number Average</option>
+            </select>
+            <button type="submit">Calculate</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script>
+        document.getElementById('average-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const formData = new FormData(event.target);
+            const numbers = formData.get('numbers');
+            const type = formData.get('type');
+
+            fetch(`/${type}`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ numbers: numbers.split(',').map(Number) }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('result').innerText = `Average: ${data.average}`;
+            })
+            .catch(error => console.error('Error:', error));
+        });
+    </script>
+</body>
+</html>
