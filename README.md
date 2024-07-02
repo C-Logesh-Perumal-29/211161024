@@ -1,3 +1,7 @@
+<div align="center">
+<h1>Average Calculator<h1>
+</div>
+
 <p align="center">
   <img src="https://github.com/C-Logesh-Perumal-29/211161024/assets/125385633/40f7fa99-b75a-4657-ab76-d5ee195f94c2" alt="Desktop View 1">
 </p>
@@ -10,4 +14,10 @@
   <img src="https://github.com/C-Logesh-Perumal-29/211161024/assets/125385633/f8b5f648-6ccb-4b1c-a4f0-9245505ded48" alt="Desktop View 3">
 </p>
 
-
+<div align="center">
+<h1>Top N Products<h1>
+</div>
+  
+<p align="center">
+  <img src="https://github.com/C-Logesh-Perumal-29/211161024/assets/125385633/c7b018a7-c2ba-4e57-8421-34753660434e" alt="Desktop View 4">
+</p>
