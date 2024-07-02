@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/C-Logesh-Perumal-29/211161024/assets/125385633/40f7fa99-b75a-4657-ab76-d5ee195f94c2" alt="Desktop View">
+  <img src="https://github.com/C-Logesh-Perumal-29/211161024/assets/125385633/40f7fa99-b75a-4657-ab76-d5ee195f94c2" alt="Desktop View 1">
 </p>
 
 <p align="center">
@@ -7,9 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/C-Logesh-Perumal-29/211161024/assets/125385633/e9dea2db-9d74-4997-8424-856fa26173e3" alt="Tab View">
+  <img src="https://github.com/C-Logesh-Perumal-29/211161024/assets/125385633/f8b5f648-6ccb-4b1c-a4f0-9245505ded48" alt="Desktop View 3">
 </p>
 
-<p align="center">
-  <img src="https://github.com/C-Logesh-Perumal-29/211161024/assets/125385633/7d29bfd3-0ee2-44f8-9965-cecdcc3230d5" alt="Mobile View">
-</p>
+
