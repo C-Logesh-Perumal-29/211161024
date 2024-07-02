@@ -19,5 +19,5 @@
 </div>
   
 <p align="center">
-  <img src="https://github.com/C-Logesh-Perumal-29/211161024/assets/125385633/c7b018a7-c2ba-4e57-8421-34753660434e" alt="Desktop View 4">
+  <img src="https://github.com/C-Logesh-Perumal-29/211161024/assets/125385633/dd409c26-b7e0-4de9-80a7-6f9cb46fcc53" alt="Desktop View 4">
 </p>
