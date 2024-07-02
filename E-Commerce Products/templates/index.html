@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Products</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="gradient-bg">
+        <div class="container">
+            <h1>Top Products</h1>
+            <div class="product-list">
+                {% for product in products %}
+                <div class="product-card">
+                    <h2>{{ product.name }}</h2>
+                    <p>Price: ₹{{ product.price }}</p>
+                    <p>Rating: {{ product.rating }}</p>
+                    <p>Discount: {{ product.discount }}%</p>
+                    {% if product.availability %}
+                    <p class="availability">Availability: In Stock</p>
+                    {% else %}
+                    <p class="availability">Availability: Out of Stock</p>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>
